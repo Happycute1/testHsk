@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif Lao';font-size: 22px;
+
+}
+
+header {
+    background-color: #e0f7fa;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px; /* 放大 logo 图片 */
+    height: auto;
+    margin-right: 20px;
+}
+.title {
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.wordbank {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#searchInput {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#wordTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#wordTable th, #wordTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.word-item button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+footer {
+    background-color: #3f7ec5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+@media (min-width: 600px) {
+    #searchInput {
+        width: 60%;
+        margin: 0 auto 20px;
+    }
+
+    #wordTable {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
